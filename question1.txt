@@ -1,0 +1,5 @@
+>>> list = [5, 6.6, 'a', 'dehradun']
+	  
+>>> print(list)
+	  
+[5, 6.6, 'a', 'dehradun']

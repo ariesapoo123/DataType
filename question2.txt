@@ -1,0 +1,9 @@
+>>> list = [5, 6.6, 'a', 'dehradun']
+	  
+>>> list2 = ['google','apple','facebook','microsoft','tesla']
+	  
+>>> list.append(list2)
+	  
+>>> print(list)
+	  
+[5, 6.6, 'a', 'dehradun', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]

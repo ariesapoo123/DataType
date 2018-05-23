@@ -1,0 +1,8 @@
+>>> number=(1, 2, 3, 4, 5, 6, 7, 8, 9)
+	  
+>>> print("Total evens: ",len([i for i in number if(i%2==0)]))
+	  
+Total evens:  4
+>>> print("Total odds: ",len([i for i in number if(i%2!=0)]))
+	  
+Total odds:  5

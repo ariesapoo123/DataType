@@ -1,0 +1,36 @@
+STACK
+
+>>> list = [3,5,2,8]
+	  
+>>> list.append(9)
+	  
+>>> print(list)
+	  
+[3, 5, 2, 8, 9]
+>>> list.pop()
+	  
+9
+>>> print(list)
+	  
+[3, 5, 2, 8]
+
+QUEUE
+
+>>> from collections import deque
+	  
+>>> queue = deque([3,6,4,8])
+	  
+>>> print(queue)
+	  
+deque([3, 6, 4, 8])
+>>> queue.append(9)
+	  
+>>> print(queue)
+	  
+deque([3, 6, 4, 8, 9])
+>>> queue.popleft()
+	  
+3
+>>> print(queue)
+	  
+deque([6, 4, 8, 9])
